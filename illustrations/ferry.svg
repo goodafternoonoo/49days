@@ -1,0 +1,32 @@
+<svg xmlns="http://www.w3.org/2000/svg" viewBox="0 0 320 140">
+  <title>삼도천 나루터</title>
+  <!-- 하늘 -->
+  <rect width="320" height="140" fill="#1b1815"/>
+  <!-- 먼 산 두 겹 -->
+  <path d="M0 52 Q40 28 80 42 Q120 18 165 38 Q210 22 250 36 Q290 26 320 40 L320 70 L0 70 Z" fill="#2b2620"/>
+  <path d="M0 62 Q60 46 120 58 Q180 44 240 56 Q290 48 320 56 L320 74 L0 74 Z" fill="#332d26"/>
+  <!-- 강가 안개 -->
+  <ellipse cx="90" cy="70" rx="120" ry="6" fill="#4a4338" opacity="0.6"/>
+  <ellipse cx="250" cy="75" rx="110" ry="5" fill="#4a4338" opacity="0.5"/>
+  <!-- 강물 -->
+  <rect y="74" width="320" height="66" fill="#201c18"/>
+  <g stroke="#5a5246" stroke-width="1.2" stroke-linecap="round" opacity="0.8">
+    <path d="M14 86 H70"/><path d="M96 82 H150"/><path d="M220 88 H282"/>
+    <path d="M30 100 H88"/><path d="M226 104 H300"/><path d="M8 118 H52"/>
+    <path d="M78 128 H140"/><path d="M180 122 H236"/><path d="M262 132 H312"/>
+  </g>
+  <!-- 배와 뱃사공 -->
+  <path d="M118 98 Q160 110 206 98 L198 106 Q160 114 126 106 Z" fill="#0d0b09"/>
+  <path d="M164 74 Q170 70 176 74 L174 92 L166 92 Z" fill="#0d0b09"/>
+  <circle cx="170" cy="66" r="4.5" fill="#0d0b09"/>
+  <path d="M159 64 Q170 57 181 64 Z" fill="#0d0b09"/>
+  <path d="M176 76 L214 116" stroke="#0d0b09" stroke-width="1.6"/>
+  <!-- 뱃머리 등불 -->
+  <path d="M126 98 L126 84" stroke="#0d0b09" stroke-width="1.2"/>
+  <circle cx="126" cy="81" r="9" fill="#c0392b" opacity="0.18"/>
+  <circle cx="126" cy="81" r="4" fill="#c0392b"/>
+  <path d="M118 111 Q160 118 206 110" stroke="#5a5246" stroke-width="1" fill="none"/>
+  <!-- 낙관 (작은 화면에서 그림 위아래가 잘려도 보이도록 가운데 높이에 둔다) -->
+  <rect x="284" y="40" width="24" height="24" rx="3" fill="none" stroke="#c0392b" stroke-width="1.5"/>
+  <text x="296" y="57" text-anchor="middle" font-size="13" fill="#c0392b" font-family="serif">渡</text>
+</svg>

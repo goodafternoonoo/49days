@@ -1,0 +1,28 @@
+<svg xmlns="http://www.w3.org/2000/svg" viewBox="0 0 320 140">
+  <title>지옥행</title>
+  <rect width="320" height="140" fill="#1b1815"/>
+  <!-- 붉게 달아오른 문 -->
+  <rect x="226" y="30" width="66" height="96" fill="#c0392b" opacity="0.18"/>
+  <rect x="236" y="40" width="46" height="86" fill="#c0392b" opacity="0.35"/>
+  <path d="M236 126 Q242 104 248 116 Q254 92 260 112 Q266 98 272 116 Q278 106 282 126 Z" fill="#c0392b" opacity="0.75"/>
+  <rect x="226" y="24" width="66" height="8" fill="#0d0b09"/>
+  <rect x="226" y="30" width="8" height="96" fill="#0d0b09"/>
+  <rect x="284" y="30" width="8" height="96" fill="#0d0b09"/>
+  <!-- 바닥 -->
+  <rect y="126" width="320" height="14" fill="#26211c"/>
+  <!-- 양쪽에서 팔을 붙든 저승사자 둘과 가운데 망자 -->
+  <g fill="#0d0b09">
+    <ellipse cx="110" cy="72" rx="12" ry="2.5"/><path d="M105 72 Q105 64 110 63 Q115 64 115 72 Z"/>
+    <circle cx="110" cy="77" r="4"/><path d="M103 82 Q110 78 117 82 L122 126 L98 126 Z"/>
+    <ellipse cx="190" cy="72" rx="12" ry="2.5"/><path d="M185 72 Q185 64 190 63 Q195 64 195 72 Z"/>
+    <circle cx="190" cy="77" r="4"/><path d="M183 82 Q190 78 197 82 L202 126 L178 126 Z"/>
+  </g>
+  <g fill="#a89c84" opacity="0.8">
+    <circle cx="150" cy="82" r="4"/>
+    <path d="M144 88 Q150 84 156 88 L158 126 L142 126 Z"/>
+  </g>
+  <path d="M117 94 L144 96 M156 96 L183 94" stroke="#0d0b09" stroke-width="2.5" stroke-linecap="round"/>
+  <!-- 낙관 (작은 화면에서 그림 위아래가 잘려도 보이도록 가운데 높이에 둔다) -->
+  <rect x="12" y="40" width="24" height="24" rx="3" fill="none" stroke="#c0392b" stroke-width="1.5"/>
+  <text x="24" y="57" text-anchor="middle" font-size="13" fill="#c0392b" font-family="serif">獄</text>
+</svg>

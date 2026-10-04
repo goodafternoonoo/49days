@@ -1,0 +1,24 @@
+<svg xmlns="http://www.w3.org/2000/svg" viewBox="0 0 320 140">
+  <title>재판 통과</title>
+  <rect width="320" height="140" fill="#1b1815"/>
+  <!-- 멀리 다음 관문과 희미한 빛 -->
+  <path d="M0 80 Q80 60 160 72 Q240 58 320 74 L320 140 L0 140 Z" fill="#26211c"/>
+  <circle cx="250" cy="50" r="22" fill="#e8dcc0" opacity="0.08"/>
+  <rect x="236" y="46" width="3" height="20" fill="#0d0b09"/>
+  <rect x="261" y="46" width="3" height="20" fill="#0d0b09"/>
+  <path d="M230 46 Q238 47 240 42 L260 42 Q262 47 270 46 L266 49 L234 49 Z" fill="#0d0b09"/>
+  <path d="M250 140 L246 66 L254 66 Z" fill="#332d26"/>
+  <!-- 펼친 명부 -->
+  <path d="M60 82 L120 74 L180 82 L180 126 L120 118 L60 126 Z" fill="#e8dcc0" opacity="0.85"/>
+  <path d="M120 74 V118" stroke="#a89c84" stroke-width="1"/>
+  <g stroke="#a89c84" stroke-width="1.2" stroke-linecap="round">
+    <path d="M70 90 H108"/><path d="M70 98 H104"/><path d="M70 106 H110"/><path d="M70 114 H96"/>
+    <path d="M132 90 H168"/><path d="M132 98 H160"/>
+  </g>
+  <!-- 찍힌 붉은 도장 -->
+  <g transform="rotate(-6 150 108)">
+    <rect x="136" y="96" width="28" height="24" rx="2" fill="#c0392b"/>
+    <text x="150" y="114" text-anchor="middle" font-size="15" fill="#e8dcc0" font-family="serif">通</text>
+  </g>
+  <ellipse cx="160" cy="130" rx="150" ry="5" fill="#4a4338" opacity="0.4"/>
+</svg>

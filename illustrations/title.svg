@@ -1,0 +1,29 @@
+<svg xmlns="http://www.w3.org/2000/svg" viewBox="0 0 320 180">
+  <title>저승으로 가는 길</title>
+  <rect width="320" height="180" fill="#1b1815"/>
+  <!-- 흐린 달 -->
+  <circle cx="236" cy="44" r="20" fill="#e8dcc0" opacity="0.8"/>
+  <rect x="200" y="46" width="80" height="5" fill="#1b1815" opacity="0.6"/>
+  <rect x="210" y="54" width="60" height="3" fill="#1b1815" opacity="0.5"/>
+  <!-- 먼 산 -->
+  <path d="M0 98 Q40 66 90 86 Q130 58 180 82 Q230 62 270 80 Q300 70 320 78 L320 180 L0 180 Z" fill="#26211c"/>
+  <path d="M0 116 Q70 96 140 110 Q220 94 320 108 L320 180 L0 180 Z" fill="#2b2620"/>
+  <!-- 문까지 이어지는 길 -->
+  <path d="M120 180 L154 116 L166 116 L200 180 Z" fill="#332d26"/>
+  <!-- 멀리 선 저승 문 -->
+  <rect x="140" y="88" width="4" height="30" fill="#0d0b09"/>
+  <rect x="176" y="88" width="4" height="30" fill="#0d0b09"/>
+  <path d="M130 86 Q138 88 144 82 L176 82 Q182 88 190 86 L184 91 L136 91 Z" fill="#0d0b09"/>
+  <path d="M144 82 Q160 74 176 82 Z" fill="#0d0b09"/>
+  <circle cx="160" cy="100" r="2.5" fill="#c0392b"/>
+  <!-- 길 위를 걷는 망자 (뒷모습) -->
+  <circle cx="162" cy="146" r="4" fill="#a89c84" opacity="0.8"/>
+  <path d="M157 151 Q162 148 167 151 L169 168 L155 168 Z" fill="#a89c84" opacity="0.8"/>
+  <!-- 안개 -->
+  <ellipse cx="80" cy="120" rx="110" ry="6" fill="#4a4338" opacity="0.5"/>
+  <ellipse cx="250" cy="124" rx="100" ry="5" fill="#4a4338" opacity="0.45"/>
+  <ellipse cx="160" cy="160" rx="160" ry="5" fill="#4a4338" opacity="0.3"/>
+  <!-- 낙관 -->
+  <rect x="284" y="146" width="24" height="24" rx="3" fill="none" stroke="#c0392b" stroke-width="1.5"/>
+  <text x="296" y="163" text-anchor="middle" font-size="13" fill="#c0392b" font-family="serif">冥</text>
+</svg>

@@ -1,0 +1,19 @@
+<svg xmlns="http://www.w3.org/2000/svg" viewBox="0 0 1600 900" preserveAspectRatio="xMidYMax slice">
+  <title>PC 배경: 먹 번짐 산수</title>
+  <rect width="1600" height="900" fill="#0e0c0a"/>
+  <circle cx="1240" cy="190" r="70" fill="#1d1a16"/>
+  <!-- 먼 산 -->
+  <path d="M0 560 Q120 420 260 500 Q380 360 520 470 Q620 400 700 460 L700 900 L0 900 Z" fill="#151310"/>
+  <path d="M900 470 Q1020 360 1140 450 Q1260 340 1400 440 Q1500 390 1600 430 L1600 900 L900 900 Z" fill="#151310"/>
+  <!-- 가까운 산 -->
+  <path d="M0 680 Q160 560 320 640 Q440 580 560 650 L560 900 L0 900 Z" fill="#1a1714"/>
+  <path d="M1040 650 Q1180 560 1320 630 Q1460 570 1600 620 L1600 900 L1040 900 Z" fill="#1a1714"/>
+  <!-- 안개 -->
+  <ellipse cx="300" cy="620" rx="420" ry="26" fill="#221e1a" opacity="0.8"/>
+  <ellipse cx="1300" cy="600" rx="420" ry="24" fill="#221e1a" opacity="0.8"/>
+  <ellipse cx="800" cy="780" rx="900" ry="30" fill="#1d1a16" opacity="0.9"/>
+  <!-- 붓 자국 -->
+  <g fill="none" stroke="#1f1b17" stroke-width="6" stroke-linecap="round">
+    <path d="M60 820 Q220 790 380 812"/><path d="M1220 830 Q1380 800 1540 822"/>
+  </g>
+</svg>
