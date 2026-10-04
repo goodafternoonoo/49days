@@ -1,32 +1,44 @@
-<svg xmlns="http://www.w3.org/2000/svg" viewBox="0 0 320 140">
+<svg xmlns="http://www.w3.org/2000/svg" viewBox="0 0 320 80">
   <title>삼도천 나루터</title>
+  <!-- 가로로 긴 띠 그림(4:1). 아래쪽 1/3쯤에는 사건 제목 글씨가 겹치므로 잔잔한 물만 둔다 -->
   <!-- 하늘 -->
-  <rect width="320" height="140" fill="#1b1815"/>
+  <rect width="320" height="80" fill="#1b1815"/>
   <!-- 먼 산 두 겹 -->
-  <path d="M0 52 Q40 28 80 42 Q120 18 165 38 Q210 22 250 36 Q290 26 320 40 L320 70 L0 70 Z" fill="#2b2620"/>
-  <path d="M0 62 Q60 46 120 58 Q180 44 240 56 Q290 48 320 56 L320 74 L0 74 Z" fill="#332d26"/>
+  <path d="M0 22 Q36 8 74 16 Q112 2 156 14 Q200 4 240 12 Q284 4 320 13 L320 40 L0 40 Z" fill="#2b2620"/>
+  <path d="M0 28 Q60 18 122 26 Q184 16 246 24 Q290 18 320 23 L320 40 L0 40 Z" fill="#332d26"/>
   <!-- 강가 안개 -->
-  <ellipse cx="90" cy="70" rx="120" ry="6" fill="#4a4338" opacity="0.6"/>
-  <ellipse cx="250" cy="75" rx="110" ry="5" fill="#4a4338" opacity="0.5"/>
+  <ellipse cx="90" cy="35" rx="120" ry="3" fill="#4a4338" opacity="0.6"/>
+  <ellipse cx="250" cy="36" rx="110" ry="2.5" fill="#4a4338" opacity="0.5"/>
   <!-- 강물 -->
-  <rect y="74" width="320" height="66" fill="#201c18"/>
-  <g stroke="#5a5246" stroke-width="1.2" stroke-linecap="round" opacity="0.8">
-    <path d="M14 86 H70"/><path d="M96 82 H150"/><path d="M220 88 H282"/>
-    <path d="M30 100 H88"/><path d="M226 104 H300"/><path d="M8 118 H52"/>
-    <path d="M78 128 H140"/><path d="M180 122 H236"/><path d="M262 132 H312"/>
+  <rect y="37" width="320" height="43" fill="#201c18"/>
+  <g stroke="#5a5246" stroke-width="1" stroke-linecap="round" opacity="0.8">
+    <path d="M70 41 H110"/><path d="M126 44 H160"/><path d="M250 41 H296"/>
+    <path d="M60 47 H96"/><path d="M262 47 H312"/>
   </g>
+  <!-- 아래쪽 잔물결은 아주 옅게 (제목 글씨 자리) -->
+  <g stroke="#5a5246" stroke-width="1" stroke-linecap="round" opacity="0.3">
+    <path d="M160 60 H200"/><path d="M252 64 H300"/><path d="M196 73 H236"/>
+  </g>
+  <!-- 나루터: 물가의 나무 발판과 배를 기다리는 당신 -->
+  <rect y="38" width="54" height="2.4" fill="#0d0b09"/>
+  <rect x="6" y="38" width="2.4" height="8" fill="#0d0b09"/>
+  <rect x="26" y="38" width="2.4" height="8" fill="#0d0b09"/>
+  <rect x="46" y="38" width="2.4" height="8" fill="#0d0b09"/>
+  <circle cx="36" cy="24" r="2.5" fill="#a89c84" opacity="0.75"/>
+  <path d="M33.2 27.5 Q36 25.6 38.8 27.5 L40.2 38 L31.8 38 Z" fill="#a89c84" opacity="0.75"/>
   <!-- 배와 뱃사공 -->
-  <path d="M118 98 Q160 110 206 98 L198 106 Q160 114 126 106 Z" fill="#0d0b09"/>
-  <path d="M164 74 Q170 70 176 74 L174 92 L166 92 Z" fill="#0d0b09"/>
-  <circle cx="170" cy="66" r="4.5" fill="#0d0b09"/>
-  <path d="M159 64 Q170 57 181 64 Z" fill="#0d0b09"/>
-  <path d="M176 76 L214 116" stroke="#0d0b09" stroke-width="1.6"/>
-  <!-- 뱃머리 등불 -->
-  <path d="M126 98 L126 84" stroke="#0d0b09" stroke-width="1.2"/>
-  <circle cx="126" cy="81" r="9" fill="#c0392b" opacity="0.18"/>
-  <circle cx="126" cy="81" r="4" fill="#c0392b"/>
-  <path d="M118 111 Q160 118 206 110" stroke="#5a5246" stroke-width="1" fill="none"/>
-  <!-- 낙관 (작은 화면에서 그림 위아래가 잘려도 보이도록 가운데 높이에 둔다) -->
-  <rect x="284" y="40" width="24" height="24" rx="3" fill="none" stroke="#c0392b" stroke-width="1.5"/>
-  <text x="296" y="57" text-anchor="middle" font-size="13" fill="#c0392b" font-family="serif">渡</text>
+  <path d="M174 41 Q205 47 238 41 L231 47.5 Q205 52 181 47.5 Z" fill="#0d0b09"/>
+  <path d="M210 30 Q214 27.5 218 30 L217 44 L211 44 Z" fill="#0d0b09"/>
+  <circle cx="214" cy="24.5" r="3" fill="#0d0b09"/>
+  <path d="M206.5 23 Q214 17 221.5 23 Z" fill="#0d0b09"/>
+  <path d="M218 31 L240 56" stroke="#0d0b09" stroke-width="1.2"/>
+  <!-- 뱃머리 등불과 물에 비친 그림자 -->
+  <path d="M180 42 V33" stroke="#0d0b09" stroke-width="0.9"/>
+  <circle cx="180" cy="31" r="6" fill="#c0392b" opacity="0.18"/>
+  <circle cx="180" cy="31" r="2.6" fill="#c0392b"/>
+  <path d="M176 50.5 Q205 55 236 50" stroke="#5a5246" stroke-width="0.8" fill="none"/>
+  <ellipse cx="180" cy="55" rx="3" ry="0.8" fill="#c0392b" opacity="0.25"/>
+  <!-- 낙관 -->
+  <rect x="294" y="6" width="18" height="18" rx="2.5" fill="none" stroke="#c0392b" stroke-width="1.2"/>
+  <text x="303" y="19" text-anchor="middle" font-size="11" fill="#c0392b" font-family="serif">渡</text>
 </svg>

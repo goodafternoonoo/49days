@@ -1,39 +1,43 @@
-<svg xmlns="http://www.w3.org/2000/svg" viewBox="0 0 320 140">
+<svg xmlns="http://www.w3.org/2000/svg" viewBox="0 0 320 80">
   <title>저승 문 앞</title>
-  <rect width="320" height="140" fill="#1b1815"/>
+  <!-- 가로로 긴 띠 그림(4:1). 아래쪽 1/3쯤에는 사건 제목 글씨가 겹치므로 땅과 안개만 둔다 -->
+  <rect width="320" height="80" fill="#1b1815"/>
   <!-- 먼 산 -->
-  <path d="M0 70 Q50 44 100 60 Q150 36 210 56 Q260 40 320 58 L320 140 L0 140 Z" fill="#26211c"/>
+  <path d="M0 32 Q40 16 86 26 Q132 10 182 24 Q226 12 270 22 Q298 16 320 22 L320 80 L0 80 Z" fill="#26211c"/>
   <!-- 땅 -->
-  <path d="M0 116 Q160 104 320 114 L320 140 L0 140 Z" fill="#2b2620"/>
+  <path d="M0 48 Q160 44 320 48 L320 80 L0 80 Z" fill="#2b2620"/>
   <!-- 저승 문: 기둥, 문짝, 기와 지붕 -->
-  <rect x="186" y="58" width="8" height="58" fill="#0d0b09"/>
-  <rect x="270" y="58" width="8" height="58" fill="#0d0b09"/>
-  <rect x="194" y="66" width="76" height="50" fill="#14110e"/>
-  <path d="M232 66 V116" stroke="#2b2620" stroke-width="1.5"/>
-  <rect x="182" y="58" width="100" height="5" fill="#0d0b09"/>
-  <path d="M170 54 Q184 58 194 50 L270 50 Q280 58 294 54 L284 60 L180 60 Z" fill="#0d0b09"/>
-  <path d="M194 50 Q232 38 270 50 Z" fill="#0d0b09"/>
+  <rect x="224.2" y="15.5" width="4.5" height="32.5" fill="#0d0b09"/>
+  <rect x="271.3" y="15.5" width="4.5" height="32.5" fill="#0d0b09"/>
+  <rect x="228.7" y="20" width="42.6" height="28" fill="#14110e"/>
+  <path d="M250 20 V48" stroke="#2b2620" stroke-width="1"/>
+  <rect x="222" y="15.5" width="56" height="2.8" fill="#0d0b09"/>
+  <path d="M215.3 13.3 Q223.1 15.5 228.7 11 L271.3 11 Q276.9 15.5 284.7 13.3 L279.1 16.6 L220.9 16.6 Z" fill="#0d0b09"/>
+  <path d="M228.7 11 Q250 4.3 271.3 11 Z" fill="#0d0b09"/>
   <!-- 현판 -->
-  <rect x="220" y="52" width="24" height="7" fill="#2b2620"/>
+  <rect x="243.3" y="12.2" width="13.4" height="3.9" fill="#2b2620"/>
   <!-- 붉은 등 두 개 -->
-  <path d="M182 63 V70 M282 63 V70" stroke="#0d0b09" stroke-width="1"/>
-  <circle cx="182" cy="75" r="9" fill="#c0392b" opacity="0.18"/>
-  <circle cx="282" cy="75" r="9" fill="#c0392b" opacity="0.18"/>
-  <ellipse cx="182" cy="75" rx="3.5" ry="4.5" fill="#c0392b"/>
-  <ellipse cx="282" cy="75" rx="3.5" ry="4.5" fill="#c0392b"/>
+  <path d="M222 18.3 V22.7 M278 18.3 V22.7" stroke="#0d0b09" stroke-width="0.8"/>
+  <circle cx="222" cy="25.5" r="6" fill="#c0392b" opacity="0.18"/>
+  <circle cx="278" cy="25.5" r="6" fill="#c0392b" opacity="0.18"/>
+  <ellipse cx="222" cy="25.5" rx="2.2" ry="2.8" fill="#c0392b"/>
+  <ellipse cx="278" cy="25.5" rx="2.2" ry="2.8" fill="#c0392b"/>
   <!-- 문 앞의 당신 (흐릿한 망자) -->
-  <circle cx="150" cy="96" r="3.5" fill="#a89c84" opacity="0.75"/>
-  <path d="M146 101 Q150 98 154 101 L156 116 L144 116 Z" fill="#a89c84" opacity="0.75"/>
+  <circle cx="190" cy="34" r="2.3" fill="#a89c84" opacity="0.75"/>
+  <path d="M187.4 37.3 Q190 35.3 192.6 37.3 L193.9 47 L186.1 47 Z" fill="#a89c84" opacity="0.75"/>
   <!-- 돌아서 떠나는 저승사자 (갓) -->
-  <ellipse cx="70" cy="74" rx="13" ry="2.5" fill="#0d0b09"/>
-  <path d="M65 74 Q65 66 70 65 Q75 66 75 74 Z" fill="#0d0b09"/>
-  <circle cx="70" cy="79" r="4" fill="#0d0b09"/>
-  <path d="M63 84 Q70 80 77 84 L82 116 L58 116 Z" fill="#0d0b09"/>
+  <ellipse cx="66" cy="19.7" rx="8.5" ry="1.6" fill="#0d0b09"/>
+  <path d="M62.8 19.7 Q62.8 14.5 66 13.9 Q69.2 14.5 69.2 19.7 Z" fill="#0d0b09"/>
+  <circle cx="66" cy="23" r="2.6" fill="#0d0b09"/>
+  <path d="M61.5 26.2 Q66 23.6 70.5 26.2 L73.8 47 L58.2 47 Z" fill="#0d0b09"/>
   <!-- 안개 -->
-  <ellipse cx="60" cy="112" rx="90" ry="6" fill="#4a4338" opacity="0.55"/>
-  <ellipse cx="240" cy="118" rx="100" ry="5" fill="#4a4338" opacity="0.5"/>
-  <ellipse cx="150" cy="88" rx="60" ry="3" fill="#4a4338" opacity="0.35"/>
-  <!-- 낙관 (작은 화면에서 그림 위아래가 잘려도 보이도록 가운데 높이에 둔다) -->
-  <rect x="12" y="40" width="24" height="24" rx="3" fill="none" stroke="#c0392b" stroke-width="1.5"/>
-  <text x="24" y="57" text-anchor="middle" font-size="13" fill="#c0392b" font-family="serif">門</text>
+  <ellipse cx="60" cy="46.5" rx="80" ry="3" fill="#4a4338" opacity="0.55"/>
+  <ellipse cx="250" cy="48.5" rx="90" ry="3" fill="#4a4338" opacity="0.5"/>
+  <ellipse cx="130" cy="30" rx="40" ry="1.5" fill="#4a4338" opacity="0.35"/>
+  <!-- 아래쪽에 깔린 옅은 안개 (제목 글씨 자리) -->
+  <ellipse cx="160" cy="62" rx="170" ry="4" fill="#4a4338" opacity="0.25"/>
+  <ellipse cx="110" cy="73" rx="130" ry="3" fill="#4a4338" opacity="0.18"/>
+  <!-- 낙관 -->
+  <rect x="8" y="6" width="18" height="18" rx="2.5" fill="none" stroke="#c0392b" stroke-width="1.2"/>
+  <text x="17" y="19" text-anchor="middle" font-size="11" fill="#c0392b" font-family="serif">門</text>
 </svg>

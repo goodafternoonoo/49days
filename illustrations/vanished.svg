@@ -1,27 +1,28 @@
-<svg xmlns="http://www.w3.org/2000/svg" viewBox="0 0 320 140">
+<svg xmlns="http://www.w3.org/2000/svg" viewBox="0 0 320 80">
   <title>소멸</title>
-  <rect width="320" height="140" fill="#1b1815"/>
-  <ellipse cx="160" cy="124" rx="150" ry="8" fill="#26211c"/>
+  <rect width="320" height="80" fill="#1b1815"/>
+  <ellipse cx="160" cy="74" rx="150" ry="5" fill="#26211c"/>
   <!-- 아래쪽은 아직 형체가 남아 있는 망자 -->
-  <path d="M150 92 Q160 88 170 92 L174 124 L146 124 Z" fill="#a89c84" opacity="0.55"/>
-  <!-- 위로 갈수록 흩어지는 혼 -->
+  <path d="M151 52 Q160 49 169 52 L172 74 L148 74 Z" fill="#a89c84" opacity="0.55"/>
+  <!-- 위로 갈수록 흩어지며 바람에 실려 가는 혼 -->
   <g fill="#a89c84">
-    <circle cx="160" cy="82" r="5" opacity="0.4"/>
-    <circle cx="154" cy="74" r="2" opacity="0.35"/><circle cx="166" cy="72" r="2" opacity="0.35"/>
-    <circle cx="160" cy="66" r="1.8" opacity="0.3"/><circle cx="172" cy="62" r="1.6" opacity="0.3"/>
-    <circle cx="150" cy="60" r="1.5" opacity="0.25"/><circle cx="180" cy="54" r="1.5" opacity="0.25"/>
-    <circle cx="164" cy="50" r="1.4" opacity="0.22"/><circle cx="190" cy="44" r="1.3" opacity="0.2"/>
-    <circle cx="176" cy="38" r="1.2" opacity="0.18"/><circle cx="204" cy="34" r="1.2" opacity="0.15"/>
-    <circle cx="192" cy="26" r="1.1" opacity="0.12"/><circle cx="220" cy="22" r="1" opacity="0.1"/>
-    <circle cx="236" cy="14" r="1" opacity="0.08"/><circle cx="142" cy="46" r="1.2" opacity="0.15"/>
-    <circle cx="130" cy="34" r="1" opacity="0.1"/>
+    <circle cx="160" cy="44" r="4.5" opacity="0.4"/>
+    <circle cx="154" cy="38" r="1.8" opacity="0.35"/><circle cx="167" cy="37" r="1.8" opacity="0.35"/>
+    <circle cx="161" cy="32" r="1.6" opacity="0.3"/><circle cx="174" cy="30" r="1.5" opacity="0.3"/>
+    <circle cx="150" cy="29" r="1.4" opacity="0.25"/><circle cx="186" cy="25" r="1.4" opacity="0.25"/>
+    <circle cx="170" cy="23" r="1.3" opacity="0.22"/><circle cx="198" cy="20" r="1.2" opacity="0.2"/>
+    <circle cx="184" cy="16" r="1.1" opacity="0.18"/><circle cx="212" cy="15" r="1.1" opacity="0.15"/>
+    <circle cx="200" cy="10" r="1" opacity="0.12"/><circle cx="228" cy="10" r="1" opacity="0.1"/>
+    <circle cx="246" cy="6" r="0.9" opacity="0.08"/><circle cx="140" cy="22" r="1.1" opacity="0.15"/>
+    <circle cx="130" cy="15" r="0.9" opacity="0.1"/><circle cx="240" cy="16" r="0.9" opacity="0.1"/>
+    <circle cx="262" cy="11" r="0.8" opacity="0.07"/><circle cx="216" cy="5" r="0.8" opacity="0.07"/>
   </g>
   <!-- 이름이 흐려지는 명부 -->
-  <path d="M40 100 L80 96 L120 100 L120 124 L80 120 L40 124 Z" fill="#e8dcc0" opacity="0.18"/>
-  <g stroke="#e8dcc0" stroke-width="1.5" stroke-linecap="round">
-    <path d="M50 106 H72" opacity="0.35"/><path d="M50 112 H66" opacity="0.2"/><path d="M88 106 H110" opacity="0.1"/>
+  <path d="M36 58 L72 55 L108 58 L108 74 L72 71 L36 74 Z" fill="#e8dcc0" opacity="0.18"/>
+  <g stroke="#e8dcc0" stroke-width="1.3" stroke-linecap="round">
+    <path d="M44 62 H64" opacity="0.35"/><path d="M44 67 H58" opacity="0.2"/><path d="M80 62 H100" opacity="0.1"/>
   </g>
-  <!-- 낙관 (작은 화면에서 그림 위아래가 잘려도 보이도록 가운데 높이에 둔다) -->
-  <rect x="284" y="40" width="24" height="24" rx="3" fill="none" stroke="#c0392b" stroke-width="1.5" opacity="0.7"/>
-  <text x="296" y="57" text-anchor="middle" font-size="13" fill="#c0392b" font-family="serif" opacity="0.7">消</text>
+  <!-- 낙관 -->
+  <rect x="294" y="6" width="18" height="18" rx="2.5" fill="none" stroke="#c0392b" stroke-width="1.2" opacity="0.7"/>
+  <text x="303" y="19" text-anchor="middle" font-size="11" fill="#c0392b" font-family="serif" opacity="0.7">消</text>
 </svg>
