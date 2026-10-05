@@ -1,0 +1,81 @@
+<svg xmlns="http://www.w3.org/2000/svg" viewBox="0 0 320 80">
+  <title>제2관 초강왕</title>
+  <rect width="320" height="80" fill="#1b1815"/>
+  <!-- 뒤쪽 왼편 창: 창 너머로 강물과, 옷이 걸려 휜 나뭇가지 -->
+  <rect x="20" y="9" width="72" height="37" fill="#0d0b09"/>
+  <rect x="23.5" y="12.5" width="65" height="30" fill="#26211c"/>
+  <path d="M23.5 26 Q40 21 58 25 Q74 21 88.5 24 L88.5 31 L23.5 31 Z" fill="#2b2620"/>
+  <rect x="23.5" y="31" width="65" height="11.5" fill="#201c18"/>
+  <g stroke="#5a5246" stroke-width="0.9" stroke-linecap="round" opacity="0.8">
+    <path d="M28 34 H40"/><path d="M60 33.6 H74"/><path d="M36 38 H52"/><path d="M70 39 H84"/>
+  </g>
+  <path d="M88.6 14.4 Q65.9 13.1 51.7 19.4 L52.3 20.6 Q66.1 14.9 88.4 16.6 Z M51.7 19.4 Q43.7 23.7 39.8 29.9 L40.2 30.1 Q44.3 24.3 52.3 20.6 Z" fill="#0d0b09"/>
+  <g fill="#a89c84" opacity="0.45">
+    <path d="M67.3 15.4 Q70 14.6 72.7 15.4 L74.8 16.2 L75 20.3 L73 20.1 L73.6 24.3 L66.4 24.3 L67 20.1 L65 20.3 L65.2 16.2 Z"/>
+    <path d="M51.4 18.9 Q54 18.2 56.6 18.9 L58.7 19.7 L58.8 23.6 L56.9 23.5 L57.5 27.6 L50.5 27.6 L51.1 23.5 L49.2 23.6 L49.3 19.7 Z"/>
+  </g>
+  <!-- 창살 -->
+  <g fill="#0d0b09">
+    <rect x="39" y="12.5" width="1.4" height="30"/><rect x="55.3" y="12.5" width="1.4" height="30"/><rect x="71.6" y="12.5" width="1.4" height="30"/>
+    <rect x="23.5" y="26.8" width="65" height="1.2"/>
+  </g>
+  <rect x="17" y="45" width="78" height="2.4" fill="#0d0b09"/>
+  <!-- 관청의 기둥과 들보 -->
+  <g fill="#14110e"><rect width="320" height="3"/><rect x="101" y="0" width="5" height="50"/><rect x="214" y="0" width="5" height="50"/></g>
+  <!-- 대왕 뒤 세 폭 병풍 (물결 무늬) -->
+  <g fill="#26211c" stroke="#3a342c" stroke-width="0.8">
+    <rect x="118" y="6" width="28" height="46"/><rect x="146" y="6" width="28" height="46"/><rect x="174" y="6" width="28" height="46"/>
+  </g>
+  <g fill="none" stroke="#3a342c" stroke-width="1" stroke-linecap="round">
+    <path d="M122 16 Q127 13 132 16 Q137 19 142 16"/><path d="M178 16 Q183 13 188 16 Q193 19 198 16"/>
+    <path d="M122 22 Q127 19 132 22 Q137 25 142 22"/><path d="M178 22 Q183 19 188 22 Q193 25 198 22"/>
+  </g>
+  <!-- 오른쪽 장부 더미: 얇고 가지런하게, 끈으로 묶었다 -->
+  <g fill="#e8dcc0" opacity="0.28">
+    <rect x="232" y="46.6" width="30" height="3"/><rect x="232" y="43.2" width="30" height="3"/><rect x="232" y="39.8" width="30" height="3"/><rect x="232" y="36.4" width="30" height="3"/><rect x="268" y="46.6" width="22" height="3"/><rect x="268" y="43.2" width="22" height="3"/><rect x="268" y="39.8" width="22" height="3"/>
+  </g>
+  <g stroke="#3a342c" stroke-width="0.8">
+    <path d="M253 36.4 V50"/><path d="M283 39.8 V50"/>
+  </g>
+  <!-- 초강왕: 면류관과 넓은 관복. 고개를 숙여 주판을 내려다본다 -->
+  <path d="M128 52 Q132 35 160 34 Q188 35 192 52 Z" fill="#0d0b09"/>
+  <circle cx="160" cy="27.5" r="6.6" fill="#0d0b09"/>
+  <path d="M147.5 15.6 L172.5 15.6 L175 19.6 L145 19.6 Z" fill="#0d0b09"/>
+  <rect x="155" y="19" width="10" height="3.6" fill="#0d0b09"/>
+  <g stroke="#0d0b09" stroke-width="0.8"><path d="M146.2 19.6 V24.4"/><path d="M149.8 19.6 V25.6"/><path d="M170.2 19.6 V25.6"/><path d="M173.8 19.6 V24.4"/></g>
+  <!-- 책상 -->
+  <rect x="24" y="50" width="272" height="30" fill="#0d0b09"/>
+  <rect x="24" y="50" width="272" height="2" fill="#3a342c"/>
+  <!-- 가로로 긴 큰 주판: 틀은 선 색, 알은 종이 색 -->
+  <rect x="110" y="53" width="100" height="20" rx="1" fill="#14110e" stroke="#3a342c" stroke-width="1.6"/>
+  <g stroke="#3a342c" stroke-width="0.6">
+    <path d="M116 54 V72"/><path d="M124 54 V72"/><path d="M132 54 V72"/><path d="M140 54 V72"/><path d="M148 54 V72"/><path d="M156 54 V72"/><path d="M164 54 V72"/><path d="M172 54 V72"/><path d="M180 54 V72"/><path d="M188 54 V72"/><path d="M196 54 V72"/><path d="M204 54 V72"/>
+  </g>
+  <rect x="110" y="58" width="100" height="1.3" fill="#3a342c"/>
+  <!-- 알: 막대마다 한 줄 (위 칸 하나, 아래 칸 넷). 들보 쪽으로 올린 알이 셈한 수. 맨 오른쪽 막대는 알 하나가 튕겨 나갔다 -->
+  <g fill="#e8dcc0" opacity="0.6">
+    <ellipse cx="116" cy="55.2" rx="2.6" ry="1.15"/><ellipse cx="116" cy="60.6" rx="2.6" ry="1.15"/><ellipse cx="116" cy="63" rx="2.6" ry="1.15"/><ellipse cx="116" cy="68.3" rx="2.6" ry="1.15"/><ellipse cx="116" cy="70.7" rx="2.6" ry="1.15"/>
+    <ellipse cx="124" cy="56.7" rx="2.6" ry="1.15"/><ellipse cx="124" cy="63.5" rx="2.6" ry="1.15"/><ellipse cx="124" cy="65.9" rx="2.6" ry="1.15"/><ellipse cx="124" cy="68.3" rx="2.6" ry="1.15"/><ellipse cx="124" cy="70.7" rx="2.6" ry="1.15"/>
+    <ellipse cx="132" cy="55.2" rx="2.6" ry="1.15"/><ellipse cx="132" cy="60.6" rx="2.6" ry="1.15"/><ellipse cx="132" cy="63" rx="2.6" ry="1.15"/><ellipse cx="132" cy="65.4" rx="2.6" ry="1.15"/><ellipse cx="132" cy="67.8" rx="2.6" ry="1.15"/>
+    <ellipse cx="140" cy="55.2" rx="2.6" ry="1.15"/><ellipse cx="140" cy="60.6" rx="2.6" ry="1.15"/><ellipse cx="140" cy="65.9" rx="2.6" ry="1.15"/><ellipse cx="140" cy="68.3" rx="2.6" ry="1.15"/><ellipse cx="140" cy="70.7" rx="2.6" ry="1.15"/>
+    <ellipse cx="148" cy="56.7" rx="2.6" ry="1.15"/><ellipse cx="148" cy="60.6" rx="2.6" ry="1.15"/><ellipse cx="148" cy="63" rx="2.6" ry="1.15"/><ellipse cx="148" cy="65.4" rx="2.6" ry="1.15"/><ellipse cx="148" cy="70.7" rx="2.6" ry="1.15"/>
+    <ellipse cx="156" cy="55.2" rx="2.6" ry="1.15"/><ellipse cx="156" cy="63.5" rx="2.6" ry="1.15"/><ellipse cx="156" cy="65.9" rx="2.6" ry="1.15"/><ellipse cx="156" cy="68.3" rx="2.6" ry="1.15"/><ellipse cx="156" cy="70.7" rx="2.6" ry="1.15"/>
+    <ellipse cx="164" cy="55.2" rx="2.6" ry="1.15"/><ellipse cx="164" cy="60.6" rx="2.6" ry="1.15"/><ellipse cx="164" cy="63" rx="2.6" ry="1.15"/><ellipse cx="164" cy="68.3" rx="2.6" ry="1.15"/><ellipse cx="164" cy="70.7" rx="2.6" ry="1.15"/>
+    <ellipse cx="172" cy="56.7" rx="2.6" ry="1.15"/><ellipse cx="172" cy="60.6" rx="2.6" ry="1.15"/><ellipse cx="172" cy="63" rx="2.6" ry="1.15"/><ellipse cx="172" cy="65.4" rx="2.6" ry="1.15"/><ellipse cx="172" cy="67.8" rx="2.6" ry="1.15"/>
+    <ellipse cx="180" cy="55.2" rx="2.6" ry="1.15"/><ellipse cx="180" cy="60.6" rx="2.6" ry="1.15"/><ellipse cx="180" cy="65.9" rx="2.6" ry="1.15"/><ellipse cx="180" cy="68.3" rx="2.6" ry="1.15"/><ellipse cx="180" cy="70.7" rx="2.6" ry="1.15"/>
+    <ellipse cx="188" cy="55.2" rx="2.6" ry="1.15"/><ellipse cx="188" cy="63.5" rx="2.6" ry="1.15"/><ellipse cx="188" cy="65.9" rx="2.6" ry="1.15"/><ellipse cx="188" cy="68.3" rx="2.6" ry="1.15"/><ellipse cx="188" cy="70.7" rx="2.6" ry="1.15"/>
+    <ellipse cx="196" cy="56.7" rx="2.6" ry="1.15"/><ellipse cx="196" cy="60.6" rx="2.6" ry="1.15"/><ellipse cx="196" cy="63" rx="2.6" ry="1.15"/><ellipse cx="196" cy="65.4" rx="2.6" ry="1.15"/><ellipse cx="196" cy="70.7" rx="2.6" ry="1.15"/>
+    <ellipse cx="204" cy="55.2" rx="2.6" ry="1.15"/><ellipse cx="204" cy="60.6" rx="2.6" ry="1.15"/><ellipse cx="204" cy="63" rx="2.6" ry="1.15"/><ellipse cx="204" cy="70.7" rx="2.6" ry="1.15"/>
+  </g>
+  <!-- 소매와 손: 오른손이 알을 튕긴다 -->
+  <path d="M134 44 Q124 50 126 56.5 L141 56.5 Q141 50 146 46 Z" fill="#0d0b09"/>
+  <path d="M186 44 Q197 49 199 55.5 L190 56.5 Q188 50 174 46 Z" fill="#0d0b09"/>
+  <!-- 튕겨 오른 주판알 하나와 그 움직임 -->
+  <ellipse cx="216.5" cy="40.5" rx="2.6" ry="1.15" fill="#e8dcc0" opacity="0.85"/>
+  <g fill="none" stroke="#e8dcc0" stroke-width="0.7" stroke-linecap="round" opacity="0.5">
+    <path d="M215.3 44.9 Q212.7 44.3 212.1 41.7"/><path d="M214.6 47.5 Q210.6 46.4 209.5 42.4"/>
+  </g>
+  <!-- 낙관 -->
+  <rect x="294" y="6" width="18" height="18" rx="2.5" fill="none" stroke="#c0392b" stroke-width="1.2"/>
+  <text x="303" y="19" text-anchor="middle" font-size="11" fill="#c0392b" font-family="serif">算</text>
+</svg>
