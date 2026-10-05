@@ -1,0 +1,103 @@
+<svg xmlns="http://www.w3.org/2000/svg" viewBox="0 0 320 80">
+  <title>제3관 송제왕</title>
+  <rect width="320" height="80" fill="#1b1815"/>
+  <!-- 왼편은 트인 마루: 난간 너머로 눈 덮인 고갯마루와 올라오는 길 -->
+  <rect x="0" y="3" width="101" height="44" fill="#26211c"/>
+  <path d="M0 22 Q12 13 24 18 Q36 8 50 16 Q62 10 74 15 Q88 9 101 14 L101 47 L0 47 Z" fill="#2b2620"/>
+  <g fill="none" stroke="#e8dcc0" stroke-width="0.8" stroke-linecap="round" opacity="0.22">
+    <path d="M18 16.4 Q24 14 28 16.6"/><path d="M31 12.6 Q36 8.6 42 11.6"/><path d="M68 13 Q74 10.6 79 12.4"/><path d="M84 11.6 Q88 9.6 93 10.8"/>
+  </g>
+  <path d="M0 30 Q18 23 36 28 Q54 22 70 27 Q86 23 101 26 L101 47 L0 47 Z" fill="#332d26"/>
+  <path d="M0 37 Q24 33 48 36.5 Q72 39.5 101 35 L101 47 L0 47 Z" fill="#201c18"/>
+  <!-- 고갯길과 그 길을 오르는 망자 둘 -->
+  <path d="M96 38 Q72 36.6 82 33.6 Q90 31.2 70 29.8 Q56 28.8 62 25.6 Q66 23.4 60 21" fill="none" stroke="#5a5246" stroke-width="1" stroke-linecap="round"/>
+  <g fill="#a89c84" opacity="0.75">
+    <circle cx="80.4" cy="30.2" r="1"/><path d="M79.2 31.5 Q80.4 30.7 81.6 31.5 L82.2 34.6 L78.6 34.6 Z"/>
+    <circle cx="66" cy="25.4" r="0.8"/><path d="M65 26.5 Q66 25.8 67 26.5 L67.5 29 L64.5 29 Z"/>
+  </g>
+  <!-- 바람에 실려 고개를 넘어오는 편지 -->
+  <g fill="#e8dcc0" opacity="0.55">
+    <rect x="30" y="20" width="5" height="3" transform="rotate(-18 32.5 21.5)"/>
+    <rect x="46" y="27" width="4" height="2.5" transform="rotate(14 48 28.2)"/>
+  </g>
+  <g fill="none" stroke="#5a5246" stroke-width="0.7" stroke-linecap="round" opacity="0.6">
+    <path d="M14 24 Q22 22.4 28 23.6"/><path d="M36 30.6 Q42 29.4 46 30.2"/>
+  </g>
+  <!-- 눈 -->
+  <g fill="#e8dcc0" opacity="0.4">
+    <circle cx="8" cy="9" r="0.5"/><circle cx="22" cy="6.5" r="0.45"/><circle cx="40" cy="5.5" r="0.5"/><circle cx="58" cy="8" r="0.45"/>
+    <circle cx="76" cy="6" r="0.5"/><circle cx="92" cy="7.4" r="0.45"/><circle cx="14" cy="27" r="0.45"/><circle cx="88" cy="30" r="0.5"/>
+  </g>
+  <!-- 난간 -->
+  <g fill="#0d0b09">
+    <rect x="0" y="38" width="101" height="1.8"/><rect x="0" y="45" width="101" height="2.2"/>
+    <rect x="6" y="39.8" width="1.4" height="5.2"/><rect x="18" y="39.8" width="1.4" height="5.2"/><rect x="30" y="39.8" width="1.4" height="5.2"/>
+    <rect x="42" y="39.8" width="1.4" height="5.2"/><rect x="54" y="39.8" width="1.4" height="5.2"/><rect x="66" y="39.8" width="1.4" height="5.2"/>
+    <rect x="78" y="39.8" width="1.4" height="5.2"/><rect x="90" y="39.8" width="1.4" height="5.2"/>
+  </g>
+  <!-- 관청의 기둥과 들보 -->
+  <g fill="#14110e"><rect width="320" height="3"/><rect x="101" y="0" width="5" height="50"/><rect x="214" y="0" width="5" height="50"/></g>
+  <!-- 대왕 뒤 세 폭 병풍 (구름 무늬) -->
+  <g fill="#26211c" stroke="#3a342c" stroke-width="0.8">
+    <rect x="118" y="6" width="28" height="46"/><rect x="146" y="6" width="28" height="46"/><rect x="174" y="6" width="28" height="46"/>
+  </g>
+  <g fill="none" stroke="#3a342c" stroke-width="1" stroke-linecap="round">
+    <path d="M122 18 Q124 13 129 14.6 Q131 11 136 13 Q141 13 141 17"/><path d="M127 20 Q133 18 139 20"/>
+    <path d="M179 18 Q181 13 186 14.6 Q188 11 193 13 Q198 13 198 17"/><path d="M184 20 Q190 18 196 20"/>
+  </g>
+  <!-- 왕의 칸 안, 오른소매 곁의 등잔 (소개 글 "등잔 곁에서", 지옥 판결 "등잔불을 끈다") -->
+  <circle cx="206" cy="32" r="10" fill="#e8dcc0" opacity="0.05"/>
+  <circle cx="206" cy="32" r="5.5" fill="#e8dcc0" opacity="0.08"/>
+  <rect x="205.2" y="36" width="1.6" height="14" fill="#0d0b09"/>
+  <path d="M201.6 35.2 L210.4 35.2 L209 37 L203 37 Z" fill="#0d0b09"/>
+  <rect x="202" y="49" width="8" height="1.4" fill="#0d0b09"/>
+  <path d="M206 29.6 Q207.6 32.4 206 34.6 Q204.4 32.4 206 29.6 Z" fill="#e8dcc0" opacity="0.85"/>
+  <!-- 오른편: 다 읽은 제문 두루마리 더미 -->
+  <g fill="#e8dcc0" opacity="0.3">
+    <rect x="246" y="45.6" width="36" height="4.4" rx="2.2"/><rect x="250" y="40.8" width="31" height="4.4" rx="2.2"/>
+    <rect x="245" y="36" width="34" height="4.4" rx="2.2"/>
+  </g>
+  <g fill="#0d0b09">
+    <rect x="244" y="45" width="2.4" height="5.6" rx="0.8"/><rect x="281.6" y="45" width="2.4" height="5.6" rx="0.8"/>
+    <rect x="248" y="40.2" width="2.4" height="5.6" rx="0.8"/><rect x="280.6" y="40.2" width="2.4" height="5.6" rx="0.8"/>
+    <rect x="243" y="35.4" width="2.4" height="5.6" rx="0.8"/><rect x="278.6" y="35.4" width="2.4" height="5.6" rx="0.8"/>
+  </g>
+  <!-- 송제왕: 면류관과 넓은 관복. 두 손으로 제문을 펼쳐 들고 소리 내어 읽는다 -->
+  <path d="M128 52 Q132 35 160 34 Q188 35 192 52 Z" fill="#0d0b09"/>
+  <circle cx="160" cy="25" r="6.6" fill="#0d0b09"/>
+  <rect x="147.5" y="12.6" width="25" height="3" fill="#0d0b09"/>
+  <rect x="155" y="15" width="10" height="4" fill="#0d0b09"/>
+  <g stroke="#0d0b09" stroke-width="0.8"><path d="M149.2 15.6 V20"/><path d="M152.6 15.6 V21"/><path d="M167.4 15.6 V21"/><path d="M170.8 15.6 V20"/></g>
+  <!-- 책상 -->
+  <rect x="24" y="50" width="272" height="30" fill="#0d0b09"/>
+  <rect x="24" y="50" width="272" height="2" fill="#3a342c"/>
+  <!-- 펼쳐 든 긴 제문: 오른손에 말린 쪽을 쥐고, 읽은 쪽은 왼손에서 흘러내려 책상에 길게 늘어진다 -->
+  <path d="M139 34.4 Q160 33.4 181 34.4 L181 44.6 Q160 43.8 139 44.6 Z" fill="#e8dcc0" opacity="0.7"/>
+  <path d="M139.2 34.4 Q130.6 35.6 129.6 46 Q129 54.6 118 56.2 Q104 57.6 90 57 L89 62.4 Q106 63.4 120 61.4 Q135 59 135.6 49.6 Q136 45.6 139.2 44.6 Z" fill="#e8dcc0" opacity="0.62"/>
+  <g stroke="#3a342c" stroke-width="0.8" stroke-linecap="round">
+    <path d="M143 36.4 V42.4"/><path d="M146.6 36.4 V41"/><path d="M150.2 36.4 V42.4"/><path d="M153.8 36.4 V38.8"/><path d="M157.4 36.4 V42"/>
+    <path d="M161 36.4 V42.2"/><path d="M164.6 36.4 V40"/><path d="M168.2 36.4 V42.2"/><path d="M171.8 36.4 V41.4"/><path d="M175.4 36.4 V38.4"/>
+  </g>
+  <g stroke="#3a342c" stroke-width="0.7" stroke-linecap="round" opacity="0.8">
+    <path d="M124 58.4 L124.4 61.4"/><path d="M119.6 59 L119.8 61.4"/><path d="M115 58.8 L115 62"/><path d="M110.4 59 L110.4 62.2"/><path d="M105.8 59 L105.8 61.2"/><path d="M101.2 58.8 L101 62.2"/><path d="M96.6 58.6 L96.4 61.8"/>
+  </g>
+  <!-- 말린 쪽 두루마리 축과 두 소매 (읽은 쪽은 왼소매 밑으로 흘러내린다) -->
+  <rect x="180.6" y="32.6" width="2.4" height="13.6" rx="1" fill="#0d0b09"/>
+  <path d="M140.4 37.6 Q128.4 40 125 50 L136.4 50 Q135.4 46 140.8 43.2 Z" fill="#0d0b09"/>
+  <path d="M181 38 Q193 40 196 50 L183 50 Q185 46 180.6 43.4 Z" fill="#0d0b09"/>
+  <!-- 읽는 소리 -->
+  <g fill="none" stroke="#e8dcc0" stroke-width="0.7" stroke-linecap="round" opacity="0.45">
+    <path d="M169.4 22.6 Q171.4 25.4 169.4 28.2"/><path d="M172.4 21 Q175.4 25.4 172.4 29.8"/>
+  </g>
+  <!-- 고개를 넘어와 쌓인 편지들과 끈으로 묶은 꾸러미 -->
+  <g fill="#e8dcc0" opacity="0.3">
+    <rect x="42" y="46.6" width="12" height="3.4" transform="rotate(-5 48 48.3)"/>
+    <rect x="53" y="46.8" width="12" height="3.2" transform="rotate(4 59 48.4)"/>
+    <rect x="47" y="43.4" width="11" height="3.2" transform="rotate(7 52.5 45)"/>
+    <rect x="70" y="40.6" width="16" height="3" /><rect x="70" y="43.6" width="16" height="3" /><rect x="70" y="46.6" width="16" height="3.4" />
+  </g>
+  <g stroke="#3a342c" stroke-width="0.8"><path d="M78 40.6 V50"/><path d="M70 45.2 H86"/></g>
+  <!-- 낙관 -->
+  <rect x="294" y="6" width="18" height="18" rx="2.5" fill="none" stroke="#c0392b" stroke-width="1.2"/>
+  <text x="303" y="19" text-anchor="middle" font-size="11" fill="#c0392b" font-family="serif">祭</text>
+</svg>
